@@ -50,16 +50,9 @@ project/
 Clone the repository:
 
 bash
-git clone https://github.com/your-username/lorem-epsum.git
-cd lorem-epsum
+git clone https://github.com/mosin1223/shoping-website.git
 Open index.html in your browser:
 
-bash
-Copy
-Edit
-open index.html  # macOS
-# OR
-start index.html  # Windows
 📌 To-Do / Future Enhancements
 Add cart functionality with JavaScript
 
@@ -78,4 +71,6 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 This project is open-source and available under the MIT License.
 
 🤝 Contact
-Created by [Your Name] — feel free to connect on LinkedIn or email
+Created by [Mohsin Ali] — feel free to connect on LinkedIn or email
+Email : cadetmohsan@gmail.com
+LinkedIn : www.linkedin.com/in/mohsin-ali-54a9b2319
