@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html ,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "roboto" , sans-serif;
+}
+.container{
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  
+}
+.contain{
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-list ul{
+      display: flex;
+      cursor: pointer;
+    list-style: none;
+    gap: 100px;
+   font-weight: bold;
+}
+
+.logo img{
+    width: 120px;
+}
+
+nav{
+    
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+   top: 0;
+   padding: 5px;
+   background-color: #fff;
+   margin-bottom: 32px;
+   position: sticky;
+   z-index: 50;
+}
+
+.hero-image img{
+    width: 500px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 80px;
+    
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sale{
+    background-color: #149839;
+    align-self: flex-start;
+}
+.main-tag{
+    font-size: 72px;
+    line-height: 1.2;
+}
+button{
+    background-color: #149839;
+    align-self: flex-start;
+    padding: 10px;
+    transition: 1.02 ease-in-out;
+    
+}
+.btn:hover{
+font-weight: bold;
+transform: scale(1.2);
+text-decoration: underline;
+}
+
+.features{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 20px;
+    
+}
+.feature{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: 0.2 ease-in-out;
+
+}
+
+.features:hover{
+      transition: 0.2 ease-in-out;
+      box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
+.devider{
+    border: 2px solid #ccc;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   margin: 0 auto;
+}
+.menu .sale{
+    align-self: center;
+}
+.price h6 {
+  font-size: 16px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.price p {
+  font-size: 14px;
+  color: #0e8f34;
+}
+/* .collection-item{
+    display: flex;
+    gap: 10px;
+} */
+
+.grid-box{
+    display: flex;
+   background-color: #fff;
+    flex-direction: column;
+    margin-bottom: 10px;
+    transition: 0.2 ease-in-out;
+    overflow: hidden;
+    /* align-items: center; */
+  
+}
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns by default */
+  gap: 10px;
+}
+
+.grid-box img{
+    
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+    border-radius: 10px;
+}
+.grid-box:hover{
+    transform: scale(1.2);
+     transition:0.2 ease-in-out;
+}
+
+footer{
+    background-color: #fff0db;
+    margin-top: 10px;
+}
+
+.footer_container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.media-icon{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+.footer-items ul{
+    list-style: none;
+   
+}
+.footer-items ul li{
+    margin-bottom: 10px;
+    font-size: 16px;
+   
+}
+.footer_container h3{
+    margin-bottom: 10px;
+    color: grey;
+}
+.new-letter input{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+
+  .contain {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .main-tag {
+    font-size: 36px;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  .feature {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .grid-box img {
+    height: auto;
+    object-fit: cover;
+  }
+
+  .menu-list ul {
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 0;
+  }
+
+  .menu {
+    overflow: hidden;
+    /* padding: 0 10px; */
+  }
+
+  .price p, .price h6 {
+    font-size: 14px;
+  }
+  .footer_container{
+    flex-direction: column;
+  }
+}
+
+
+
+
