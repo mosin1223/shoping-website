@@ -1,7 +1,7 @@
-![image](https://github.com/user-attachments/assets/5aa6b6ba-9e42-4704-8b62-44e2097b9fb6)🛍️ Lorem Epsum — Shopping Website
+🛍️ Lorem Epsum — Shopping Website
 Welcome to Lorem Epsum, a modern and responsive shopping website that offers stylish clothing, accessories, and footwear. Built using HTML5 and CSS3, this project emphasizes elegant UI/UX design and responsiveness for all screen sizes.
 
-
+---
 
 🚀 Features
 🏠 Beautiful home page with featured banner
@@ -26,6 +26,12 @@ FontAwesome	Icon set used in navbar/footer
 Google Fonts	Roboto font integration
 
 **ScreenShots**
+![Home Page](images/Home Page.png)
+![features Page](images/Features.png)
+![products Page](images/Products.png)
+![product2 Page](images/product2.png)
+![product3 Page](images/product3.png)
+![footer Page](images/footer.png)
 
 
 ---
@@ -51,6 +57,8 @@ project/
 
 👟 Shoes
 
+---
+
 📦 How to Run
 Clone the repository:
 
@@ -69,12 +77,17 @@ Add filtering by category or price
 
 Deploy on Netlify/Vercel
 
+---
+
 🙌 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
 
 📄 License
 This project is open-source and available under the MIT License.
 
+---
 🤝 Contact
 Created by [Mohsin Ali] — feel free to connect on LinkedIn or email
 Email : cadetmohsan@gmail.com
