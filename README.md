@@ -1,4 +1,4 @@
-🛍️ Lorem Epsum — Shopping Website
+![image](https://github.com/user-attachments/assets/5aa6b6ba-9e42-4704-8b62-44e2097b9fb6)🛍️ Lorem Epsum — Shopping Website
 Welcome to Lorem Epsum, a modern and responsive shopping website that offers stylish clothing, accessories, and footwear. Built using HTML5 and CSS3, this project emphasizes elegant UI/UX design and responsiveness for all screen sizes.
 
 
@@ -24,6 +24,11 @@ HTML5	Semantic page structure
 CSS3	Responsive & styled UI
 FontAwesome	Icon set used in navbar/footer
 Google Fonts	Roboto font integration
+
+**ScreenShots**
+
+
+---
 
 📂 Folder Structure
 css
